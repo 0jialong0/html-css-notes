@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 100px;
+            background-color: green;
+            display: flex;
+            /* 默认 */
+            justify-content: flex-start;
+            /* 重点开始依次排列 整体偏移至右侧*/
+            /* justify-content: flex-end; */
+            /* 子集整体居中 且子集全都紧靠一块*/
+            /* justify-content: center; */
+            /* 主轴排列并且间距均匀加在盒子两侧 子集左右两边都有间距*/
+            /* justify-content: space-around; */
+            /* 子集与子集之间的间距相等 最左和最右紧靠容器*/
+            /* justify-content: space-between; */
+            /* 子集与子集之间，子集与容器之间间距都相等 */
+            /* justify-content: space-evenly; */
+        }
+        .son{
+             width: 50px;
+            /*height: 100px; */
+            background-color: pink;
+            text-align: center;
+            line-height: 100px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">
+        <span class="son">1</span>
+        <span class="son">2</span>
+        <span class="son">3</span>
+        <span class="son">4</span>
+    </div>
+</body>
+</html>

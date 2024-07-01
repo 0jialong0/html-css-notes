@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 140px;
+            height: 140px;
+            background:  url(./img/bg.png);
+            animation: run 1s steps(12) forwards;
+        }
+
+        @keyframes run {
+            from{
+                background-position: 0 0;
+                transform: translateX(0);
+            }
+            to{
+                background-position: -1680px 0;
+                transform: translateX(1000px);
+            }
+        }
+        p{
+            width: 130px;
+            height: 296px;
+            background:  url(./img/警察.jpeg);
+            animation: police 1s steps(8) forwards;
+        }
+
+        @keyframes police {
+            from{
+                background-position: 0 0;
+                transform: translateX(0);
+            }
+            to{
+                background-position: -1040px 0;
+                transform: translateX(1000px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+    <p>
+
+    </p>
+</body>
+</html>

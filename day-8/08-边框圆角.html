@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bb{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            margin: 200px auto;
+            /* 四个角 */
+            border-radius:10px ;
+            /* 左下 */
+            border-bottom-left-radius: 20px;
+            /* 左上，右下      右上，左下 */
+            border-radius: 10px 20px;
+            /* 左上，右上 左下，右下 */
+            border-radius: 20px 30px 40px;
+            /* 左上，右上，右下 ，左下*/
+            border-radius: 10px 15px 20px 30px;
+            /* 百分比 */
+            /* 正方形变圆 */
+            border-radius: 50%;
+        }
+        .sb{
+            width: 300px;
+            height: 100px;
+            background-color: red;
+            margin: auto;
+            /* 椭圆 */
+            border-radius: 50%;
+            /* 胶囊型 */
+            border-radius: 50px;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            border: 0[];
+            background-color: gold;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="bb">傻逼</div>
+    <div class="sb"></div>
+    <button>按钮</button>
+</body>
+</html>

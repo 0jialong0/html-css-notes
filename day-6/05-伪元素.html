@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::before{
+            content:"老鼠";
+            color: gold;
+            /* display: inline-block; */
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        p::after{
+            content:"大米";
+        }
+        /* 首字母 */
+        div::first-letter{
+            font-size: 30px;
+        }
+        /* 文本第一行 */
+        div::first-line{
+            color: pink;
+        }
+        /* 改变文本选中的状态 可以直接作用于全文（删去div）*/
+        div::selection{
+            background-color: aqua;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>爱</p>
+    <div>
+        一段问一段问一段问一段问一段问一段问一段问一段问
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            width: 300px;
+            height: 300px;
+            border: 3px solid gray;
+            /* overflow: hidden; */
+            /* 父级转换成网格容器 */
+            display: grid;
+            /* 
+                特点：
+                    1.子集高度默认拉伸占满父级的高度
+                    2.子集无论是什么显示模式都竖着排列，并且宽度拉伸占满父级的宽度
+                    3.默认产生网格线
+            */
+
+            /* 行内网格 */
+            /* display: inline-grid; */
+        }
+        li{
+            width: 400px;
+            height: 40px;
+            list-style: none;
+            background-color: pink;
+        }
+        span{
+            background-color: aqua;
+        }
+        /* .box{
+            font-size: 30px;
+        } */
+    </style>
+</head>
+<body>
+    <ul class="box">
+        <li class="a1">1</li>
+        <li class="a2">2</li>
+        <li class="a3">3</li>
+        <li class="a4">4</li>
+        <li class="a5">5</li>
+        <li class="a6">6</li>
+        <li class="a7">7</li>
+        <li class="a8">8</li>
+        <li class="a9">9</li>
+        <!-- <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span> -->
+    </ul>
+    <!-- <ul>
+        <li class="a1">1</li>
+        <li class="a2">2</li>
+        <li class="a3">3</li>
+        <li class="a4">4</li>
+        <li class="a5">5</li>
+        <li class="a6">6</li>
+        <li class="a7">7</li>
+        <li class="a8">8</li>
+        <li class="a9">9</li>
+    </ul> -->
+</body>
+</html>

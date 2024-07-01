@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* 取消滚动条 */
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        ul{
+            width: 100%;
+            height: 50px;
+            list-style: none;
+            display: flex;
+            background-color: pink;
+        }
+        li{
+            /* width: 80px; */
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            flex-shrink: 0;
+            margin: 0 10px;
+           
+        }
+        li:hover{
+            color: aqua;
+            border-bottom: solid 2px gold;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>我是帅哥</li>
+        <li>我是帅哥</li>
+        <li>我是帅哥</li>
+        <li>我是帅哥</li>
+        <li>我是帅哥</li>
+        <li>我是帅哥</li>
+    </ul>
+</body>
+</html>

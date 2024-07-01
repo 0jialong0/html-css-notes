@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "34163721",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e7cd",
+      "unicode_decimal": 59341
+    },
+    {
+      "icon_id": "34169191",
+      "name": "功能",
+      "font_class": "gongneng",
+      "unicode": "e7ce",
+      "unicode_decimal": 59342
+    },
+    {
+      "icon_id": "34179002",
+      "name": "消息2",
+      "font_class": "xiaoxi2",
+      "unicode": "e7cf",
+      "unicode_decimal": 59343
+    },
+    {
+      "icon_id": "34179781",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e7d0",
+      "unicode_decimal": 59344
+    }
+  ]
+}

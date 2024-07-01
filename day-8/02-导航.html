@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            height: 30px;
+            border-top: 2px #e6e6e6 solid;
+            border-bottom: 2px #e6e6e6 solid;
+            box-sizing: border-box;
+        }
+        ul{
+            list-style: none;
+            width: 810px;
+            height: 26px;
+            background-color: gold;
+            margin: auto;
+        }
+        li{
+            float: left;
+            width: 160px;
+            height: 26px;
+            text-align: center;
+            border-right: 2px #e6e6e6 solid;
+            box-sizing: border-box;
+        }
+        ul :last-child{
+            border-right: none;
+        }
+        ul>li:nth-child(4){
+            position: relative;
+        }
+        img{
+            position: absolute;
+            top: 30px;
+            transform: translateX(-100PX);
+        }
+        nav:hover{
+            opacity: 0.1;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>我要投资</li>
+            <li>平台介绍</li>
+            <li>新手专区</li>
+            <li>手机微金所
+                <img src="./img/二维码.jpg" alt="">
+            </li>
+            <li>个人中心</li>
+        </ul>
+    </nav>
+</body>
+</html>

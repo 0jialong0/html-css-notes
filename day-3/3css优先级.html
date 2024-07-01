@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./2css外联.css">
+    
+</head>
+<body>
+    <!-- 
+        行内式优先级高于内嵌式和外联式
+        看标签位置谁距离近显示谁（就近原则）
+        代码执行顺序（后来者居上）
+        权重
+            行内式1000
+            内嵌式0001
+            外联式0001
+        -->
+    <div style="background-color: burlywood;">
+        hollow word
+    </div>
+    <style>
+        div{
+            background-color: red;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 1742px;
+    height: 30px;
+    margin: auto;
+    color: #cccccc;
+    font-size: 15px;
+    background-color: rgb(17,17,17);
+}
+header>div{
+    float: right;
+    padding-right: 20px;
+    
+}
+header>div select{
+    line-height: 30px;
+    color: #cccccc;
+    font-size: 15px;
+    border: none;
+    margin-right: 39px;
+    background-color: rgb(17,17,17);
+}
+header>div input{
+    line-height: 30px;
+    color: #cccccc;
+    border: none;
+    background-color: rgb(17,17,17);
+}
+
+
+nav{
+    width: 1742px;
+    height: 100px;
+    margin: auto;
+    overflow:hidden ;
+    /* padding-left: 478px; */
+    /* padding-top: 30px; */
+    background: url(./图片/logo.png) no-repeat left center;
+    /* background-color: pink; */
+}
+nav ul{
+    width: 800px;
+    height: 30px;
+    list-style: none;
+    float: left;
+    margin-top:30px;
+    margin-left: 478px;
+    /* background-color:gold ; */
+}
+nav ul>li{
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+}
+nav ul :last-child{
+    margin-right: 0;
+}
+nav a{
+    color: #333333;
+    font-size: 20px;
+    line-height: 30px;
+}
+nav>div{
+    float: right;
+    margin-top: 20px;
+    width: 196px;
+    height: 30px;
+    font-size: 30px;
+}
+nav>div select{
+    color: #333333;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    margin-right: 20px;
+}
+.tupian{
+    width: 1742px;
+    height: 644px;
+    margin: auto;
+    background: url(./图片/未标题-9.png);
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+.hang{
+    width: 50px;
+    margin: auto;
+    border-top: 3px solid #c7000b;
+    margin-bottom: 85px;
+}
+
+
+.shape{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(transparent,black );
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.contain>.left:hover>.shape,
+.contain>.right:hover>.shape
+{
+    display: block;
+}
+
+.art>.left:hover>.shape,
+.art>.right:hover .shape{
+    display: block;
+}
+
+
+.shan>.left:hover .shape,
+.shan>.center:hover .shape,
+.shan>.right:hover .shape{
+    display: block;
+}
+
+
+
+.contain{
+    width: 1590px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+.contain .left{
+    width: 1000px;
+    height: 500px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.contain .left>img{
+    width: 1000px;
+    height: 500px; 
+    transition: all 1.5s linear;
+}
+.contain .right>img{
+    
+    transition: all 1.5s linear;
+}
+
+.contain>.left:hover img,
+.contain>.right:hover img{
+    transform: scale(1.2);
+}
+.contain .right{
+    width: 550px;
+    height: 500px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+.box{
+    width: 100%;
+    height: 250px;
+    text-indent: 1em;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 380px;
+    transition: all 1.5s linear;
+}
+.box>.cu{
+    font-weight: 700;
+}
+.contain a{
+    font-size: 24px;
+    color: white;
+}
+.contain p{
+    height: 40px;
+    line-height: 40px;
+}
+.contain>.left:hover .box,
+.contain>.right:hover .box{
+    top: 340px;
+}
+
+.art{
+    width: 1590px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.art .left{
+    width: 550px;
+    height: 500px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.art .right{
+    width: 1000px;
+    height: 500px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+.art .left>img{
+    width: 550px;
+    height: 500px; 
+    transition: all 1.5s linear;
+}
+.art .right>img{
+    width: 1000px;
+    height: 500px;
+    transition: all 1.5s linear;
+}
+
+.art>.left:hover img,
+.art>.right:hover img{
+    transform: scale(1.2);
+}
+.box{
+    width: 100%;
+    height: 250px;
+    text-indent: 1em;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 380px;
+    transition: all 1.5s linear;
+}
+.box>.cu{
+    font-weight: 700;
+}
+.art a{
+    font-size: 24px;
+    color: white;
+}
+.art p{
+    height: 40px;
+    line-height: 40px;
+}
+.art>.left:hover .box,
+.art>.right:hover .box{
+    top: 340px;
+}
+
+
+
+.shan{
+    width: 1590px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.shan .left{
+    width: 500px;
+    height: 500px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.shan .right{
+    width: 500px;
+    height: 500px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+.shan .center{
+    margin: 0 43px;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.shan .center>img{
+    width: 500px;
+    height: 500px; 
+    transition: all 1.5s linear;
+}
+.shan .left>img{
+    width: 500px;
+    height: 500px; 
+    transition: all 1.5s linear;
+}
+.shan .right>img{
+    width: 500px;
+    height: 500px;
+    float: right;
+    transition: all 1.5s linear;
+}
+
+
+.shan>.left:hover img,
+.shan>.center:hover img,
+.shan>.right:hover img{
+    background-color: rgba(0,0,0,.5);
+    transform: scale(1.2);
+}
+.box{
+    width: 100%;
+    height: 250px;
+    text-indent: 1em;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 380px;
+    transition: all 1.5s linear;
+}
+.box>.cu{
+    font-weight: 700;
+}
+.shan a{
+    font-size: 24px;
+    color: white;
+}
+.shan p{
+    height: 40px;
+    line-height: 40px;
+}
+.shan>.left:hover .box,
+.shan>.center:hover .box,
+.shan>.right:hover .box{
+    top: 340px;
+}
+
+
+.houzi{
+    width: 1742px;
+    height: 640px;
+    margin: auto;
+    margin-top: 125px;
+}
+.houzi>img{
+    width: 1742px;
+    height: 640px;
+}
+
+article{
+    width: 1590px;
+    height: 590px;
+    margin: auto;
+}
+article ul{
+    list-style: none;
+}
+article ul>li{
+    width: 508px;
+    height: 591px;
+    float: left;
+    margin-right: 33px;
+}
+article ul :nth-of-type(3){
+    overflow: scroll;
+    margin-right: 0;
+}
+article ul :first-child>img,
+article ul :nth-child(2)>img
+{
+    width: 508px;
+    height: 300px;
+}
+article span{
+    margin-right: 15px;
+}
+article ul h3{
+    margin: 36px 35px 0 35px;
+    /* margin-top: 36px; */
+    font-size: 20px;
+}
+article ul p{
+    margin: 0 35px;
+    color: #666666;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.anniu{
+    width: 508px;
+    height: 200px;
+    margin: 0 auto;
+}
+.anniu button{
+    width: 213px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+}
+.anniu :first-child{
+    margin: 60px 45px 0 20px;
+}
+
+footer .fangda{
+    position: absolute;
+    font-size: 40px;
+    left:1540px ;
+    top: -10px;
+}
+footer>.shou>img{
+    position: absolute;
+    top: 45px;
+    left: 1528px;
+}
+footer{
+    width: 1742px;
+    height: 747px;
+    margin: auto;
+    background-color: #f2f2f2;
+}
+footer>.shou{
+    /* margin-left: 76px; */
+    margin: auto;
+    width: 1590px;
+    height: 107px;
+    position: relative;
+}
+footer>.shou span{
+    float: left;
+    margin-top: 53px;
+}
+footer>.shou input{
+    font-size: 20px;
+    color: #595757;
+    float: right;
+    width: 610px;
+    height: 60px;
+    margin-top: 30px;
+    /* background: url(); */
+}
+footer>.shou a{
+    color: #595757;
+    font-size: 20px;
+}
+footer>.foot{
+    /* background-color: gold; */
+    border-top: #e2e2e2 1px solid;
+    border-bottom: #e2e2e2 1px solid;
+    margin: auto;
+    width: 1590px;
+    height: 510px;
+}
+footer .foot>ul{
+    float: left;
+    list-style: none;
+    width: 318px;
+    height: 450px;
+    margin-top: 64px;
+    /* background-color: #c7000b; */
+}
+footer .foot>ul h4{
+    font-size: 20px;
+}
+footer .foot li{
+    padding-top: 30px;
+}
+footer .foot a{
+    font-size: 15px;
+    color: #595757;
+}
+footer>.huawei{
+    width: 1590px;
+    height: 129px;
+    margin: auto;
+    /* background-color: red; */
+}
+footer .huawei ul{
+    margin-top: 45px;
+    list-style: none;
+    float: left;
+}
+footer .huawei li{
+    height: 40px;
+    float: left;
+}
+footer .huawei a{
+    line-height: 40px;
+    font-size: 15px;
+    color: #595757;
+    padding-right: 30px;
+}
+footer .huawei img{
+    float: right;
+    margin-top: 45px;
+}
+
+.last{
+    width: 1742px;
+    height: 60px;
+    margin: auto;
+    background-color: #e6e6e6;
+}
+.last>div{
+    width: 1080px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    /* background: url(./图片/竖线.png) no-repeat 500px center; */
+}
+.last>div img{
+    position: absolute;
+    top: 15px;
+    left: 500px;
+}
+.last>div p{
+    height: 60px;
+    line-height: 60px;
+    font-size: 15px;
+    color: #595757;
+    float: left;
+}
+.last p:nth-of-type(1){
+    margin-right: 30px;
+}
+.last>div ul{
+    height: 60px;
+    float: right;
+    
+    list-style: none;
+}
+.last li{
+    float: left;
+    margin-right: 35px;
+}
+.last>div ul a{
+    font-size: 15px;
+    color: #595757;
+    line-height: 60px;
+}

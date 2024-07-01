@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 200px;
+            display: block;
+            margin: 100px auto;
+            background:pink;
+            transition: all 2s linear;
+            /* transform-origin: left top; */
+            /* transform-origin: right bottom; */
+
+            /* 只设置一个方向词，围绕当前边的中心点旋转 */
+            /* transform-origin: left; */
+            /* transform-origin: top; */
+
+            /* transform-origin: 100px 100px; */
+            /* transform-origin: -100px -100px; */
+
+            /* transform-origin: 50% 50%; */
+            /* transform-origin: -50% -50%; */
+        }
+        img:hover{
+            /* transform-origin: right bottom; */
+            transform: rotate(-360deg);
+
+        }
+    </style>
+</head>
+<body>
+    <img src="./img/轮胎.png" alt="">
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.father{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    // 这个区域是我写的头部的左边，并且上面有一个字体图标
+    .box1{
+        width: 300px;
+        height: 300px;
+        background-color: green;
+        .son{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            display: none;
+        }
+        &:hover .son{
+            display: block;
+        }
+    }
+    /* .box1:hover .son{
+        display: block;
+    } */
+    .box2{
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+        &>:nth-child(1){
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+        &>:nth-child(1)+div{
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+        }
+        &>:nth-child(3){
+            background-color: brown;
+        }
+    }
+}

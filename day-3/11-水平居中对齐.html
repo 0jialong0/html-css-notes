@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 400px;
+            background-color: aqua;
+            /* 居中对齐 */
+            text-align: center;
+            /* 左对齐 */
+            /* text-align: left; */
+            /* 右对齐 */
+            /* text-align:right; */
+        }
+        button{
+            text-align: left;
+        }
+        input{
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="box"> 如果给同一个标签设置了相同的属性，此时样式会层叠（覆盖），写在最下面的会生效
+        如果给同一个标签设置了相同的属性，此时样式会层叠（覆盖），写在最下面的会生效如果给同一个
+        标签设置了相同的属性，此时样式会层叠（覆盖），写在最下面的会生效
+    </p>
+    <button>按钮</button>
+    <br>
+    <input type="text">
+
+</body>
+</html>

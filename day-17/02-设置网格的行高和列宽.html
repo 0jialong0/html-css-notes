@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            width: 300px;
+            height: 300px;
+            list-style: none;
+            display: grid;
+            margin: auto;
+            border: 3px solid aqua;
+            /* 具体数值 */
+            /* 3列 */
+            grid-template-columns: 100px 100px 100px;
+            /* 4列 会超出，实际做项目的时候注意宽度*/
+            grid-template-columns: 100px 100px 100px 100px;
+            /* 重复执行 */
+            /* 重复执行3次两列100px 共六列 */
+            grid-template-columns: repeat(3,100px 100px);
+            /* 如果子集个数小于设置的列数,网格线会存在，不影响整体布局*/
+            /* % */
+            grid-template-columns: 10% 20%;
+            /* 百分比可以和具体数值混用 */
+            grid-template-columns: 10% 100px;
+            grid-template-columns: repeat(2,10% 100px);
+            /* 片段 */
+            grid-template-columns: 1fr 1fr 2fr;
+            grid-template-columns: repeat(2,1fr);
+
+
+
+
+            /* ?行高 */
+            /* 具体数值 */
+            grid-template-rows: 50px 50px;
+            /* % */
+            grid-template-rows: 10% 20%;
+            /* 片段 */
+            /* 在设置行高的时候，用fr片段进行书写repet(当,1fr),逻辑为提出除前三个之外元素剩余空间均 */
+            grid-template-rows: repeat(3,1fr);
+        }
+        li{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+    
+</body>
+</html>

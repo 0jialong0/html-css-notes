@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            margin: 100px auto;
+            overflow: hidden;
+            width: 1366px;
+            height: 600px;
+            background: url(./img/original_f9d9c123c62c1df29ca54e5b3b8e82d3.jpg);
+            overflow: hidden;
+        }
+        .box :first-child,
+        .box :last-child{
+            float: left;
+            transition: all 1.5s linear;
+            width: 50%;
+            height: 600px;
+            background: url(./img/original_551a2f971e463d59871dc8e7bd4af025.jpg);
+        }
+        .box :last-child{
+            background: url(./img/original_551a2f971e463d59871dc8e7bd4af025.jpg) right;
+        }
+        .box:hover :first-child{
+            transform: translate(-100%);
+        }
+        .box:hover :last-child{
+            transform: translate(100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

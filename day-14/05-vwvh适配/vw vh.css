@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  width: 18.13333333vw;
+  height: 7.46666667vw;
+  background-color: aqua;
+}
+p {
+  width: 10.19490255vh;
+  height: 4.19790105vh;
+  background-color: gold;
+}
+i {
+  display: block;
+  width: 18.13333333vw;
+  height: 4.19790105vh;
+  background-color: blue;
+}

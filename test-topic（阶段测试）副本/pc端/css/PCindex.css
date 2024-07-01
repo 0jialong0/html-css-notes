@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2 {
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: white;
+}
+header {
+  width: 1140px;
+  height: 100px;
+  margin: auto;
+}
+header .left {
+  float: left;
+  margin-top: 20px;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background: url(../img/图层\ 2.png) no-repeat 287px center;
+}
+header .left img {
+  width: 250px;
+  height: 60px;
+}
+header .left p {
+  height: 30px;
+  line-height: 30px;
+  margin: 0;
+}
+header ul {
+  float: right;
+  width: 620px;
+  height: 70px;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+header ul li {
+  text-align: center;
+  line-height: 70px;
+}
+header ul li a {
+  font-size: 12px;
+  color: #333333;
+}
+header ul li:hover {
+  background-color: #f75a53;
+}
+header ul li:hover a {
+  color: white;
+}
+.carousel {
+  margin: auto;
+}
+.carousel img {
+  width: 100% !important;
+  height: 460px !important;
+}
+h1 {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 35px;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 14px !important;
+  color: #a69ab2;
+}
+.tu {
+  width: 1140px;
+  height: 204px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-bottom: 60px;
+}
+.tu li {
+  border: 1px solid #ededed;
+  background-color: white;
+  text-align: center;
+  line-height: 102px;
+}
+section {
+  height: 540px;
+  background-color: #1a1b1f;
+}
+section .main {
+  width: 1140px;
+  height: 540px;
+  background-color: gold;
+  margin: auto;
+}
+section .main h1 {
+  padding-top: 50px;
+  color: white;
+}
+section .main h2 {
+  color: white;
+  padding-bottom: 105px;
+}
+section .main > div {
+  width: 1140px;
+  height: 260px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+section .main > div > div {
+  width: 336px;
+  height: 260px;
+  background-color: pink;
+  padding: 95px 45px 0;
+  position: relative;
+}
+section .main > div > div h3 {
+  font-size: 16px;
+  text-align: center;
+  color: #f45b56;
+}
+section .main > div > div p {
+  font-size: 12px;
+  color: #000100;
+  text-align: center;
+  line-height: 30px;
+}
+section .main > div > div .iconfont {
+  position: absolute;
+  top: -66px;
+  left: 100px;
+  background-color: white;
+  width: 130px;
+  height: 132px;
+  border-radius: 50%;
+  font-size: 100px;
+  text-align: center;
+}
+h1 {
+  padding-top: 45px;
+  color: #000100;
+}
+h2 {
+  color: #333333;
+  padding-bottom: 25px;
+}
+.fuwu {
+  width: 800px;
+  height: 40px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fuwu li {
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+}
+.fuwu li a {
+  color: white;
+}
+.fuwu li > div {
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top: 8px solid #f45b56;
+  position: absolute;
+  left: 96px;
+  display: none;
+}
+.fuwu li:hover {
+  background-color: #f45b56;
+}
+.fuwu li:hover > div {
+  display: block;
+}
+.shou {
+  width: 1140px;
+  height: 545px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 25px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+footer {
+  background-color: #f2f2f2;
+}
+footer > div {
+  width: 1140px;
+  height: 350px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+footer > div ul {
+  width: 390px;
+  height: 350px;
+  padding-top: 33px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+footer > div ul h1 {
+  text-align: left;
+  font-size: 17px;
+  width: 300px;
+  margin-top: 0;
+}
+footer > div ul li {
+  text-align: left;
+  padding-left: 0;
+  font-size: 12px;
+  color: #888687;
+  line-height: 25px;
+}
+footer > div ul li span {
+  float: right;
+}
+footer > div ul button {
+  width: 120px;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  background-color: #f75a53;
+}
+.fot {
+  height: 140px;
+  background-color: #363636;
+  font-size: 12px;
+  color: #7a7a7a;
+  display: flex;
+  flex-direction: column;
+}
+.fot > ul {
+  display: flex;
+  margin: auto;
+  padding: 0;
+}
+.fot p {
+  margin-top: 0;
+  text-align: center;
+}

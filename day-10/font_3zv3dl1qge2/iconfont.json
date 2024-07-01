@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "76992",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "f00d9",
+      "unicode_decimal": 983257
+    },
+    {
+      "icon_id": "7461124",
+      "name": "购买记录",
+      "font_class": "goumaijilu",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            height: 100px;
+            background-color: pink;
+            list-style: none;
+            display: flex;
+        }
+        ul :nth-child(1){
+            background-color: red;
+            /* flex: 1; */
+        }
+        ul :nth-child(2){
+            background-color: green;
+            /* flex: 1; */
+            flex: 1;
+        }
+        ul :nth-child(3){
+            background-color: blue;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>第1个li</li>
+        <li>第2个li</li>
+        <li>第3个li</li>
+    </ul>
+</body>
+</html>

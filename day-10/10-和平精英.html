@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 250px;
+            margin: 200px auto;
+            background-color: aqua;
+        }
+        .box>div :first-child{
+            width: 300px;
+            height: 150px;
+        }
+        .box div{
+            width: 100%;
+            height: 150px;
+            position: relative;
+        }
+        /* 注意transform的层叠型 */
+        .box>div :last-child{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%) scale(5);
+            transition: all 1.5s linear;
+            opacity: 0;
+        }
+        .box>div:hover :last-child{
+            opacity: 1;
+            transform: translate(-50%,-50%) scale(1);
+        }
+        p{
+            padding: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>
+            <img src="./img/和平精英.jpeg" alt="">
+            <img src="./img/anniu.png" alt="">
+        
+        </div>
+        <p>
+            公司成立于1984年，
+            经过近30年的发展
+            已成为电气制造，房地产开发和金融
+            投资三业并举的综合性跨国…</p>
+    </div>
+</body>
+</html>

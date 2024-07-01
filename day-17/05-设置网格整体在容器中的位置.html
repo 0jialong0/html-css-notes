@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            width: 300px;
+            height: 300px;
+            list-style: none;
+            display: grid;
+            margin: auto;
+            border: 3px solid black;
+            grid-template-columns: repeat(3,80px);
+            grid-template-rows: repeat(3,80px);
+
+            /* justify-content: stretch拉伸默认*/
+            /*justify-content: start;水平靠左对齐*/
+            /*justify-content: center;水平居中对齐*/
+            /*justify-content: end;水平靠右对齐*/
+            /* justify-content: space-around;列与列之间的间距是列与容器之间间距的两倍*/
+            /* justify-content: space-between;列与列之间的间距相等，列与容器之间的间距为零*/
+            /* justify-content: space-evenly;列与列之间的间距，列与容器之间的间距均相等*/
+
+
+            /* align-content:stretch; 默认拉伸*/
+            /* align-content: start;垂直靠上对齐 */
+            /* align-content: center;垂直居中对齐 */
+            /* align-content: end;垂直靠下对齐 */
+            /* align-content: space-around;行与行之间的间距是行与容器之间间距的两倍*/
+            /* align-content: space-between;行与行之间的间距相等，行与容器之间的间距为零*/
+            /* align-content: space-evenly;行与行之间的间距，行与容器之间的间距均相等*/
+
+            /* 第一个代表垂直方向，第二个水平方向
+            默认左上角 */
+            /* place-content: center end;中右 */
+            /* place-content: center;中 */
+            /* place-content: end;右下 */
+            /* place-content: start flex-end;右上，不建议 */
+        }
+
+
+        li{
+            background-color: aqua;
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+</body>
+</html>

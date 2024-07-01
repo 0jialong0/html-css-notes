@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 1366px;
+            height: 600px;
+            margin: 200px auto;
+            background-image: url(./img/original_f9d9c123c62c1df29ca54e5b3b8e82d3.jpg);
+        }
+        div::before,
+        div::after{
+            content: "";
+            display: block;
+            width: 50%;
+            height: 100%;
+            background: url(./img/original_551a2f971e463d59871dc8e7bd4af025.jpg);
+            transition: all 1.5s linear;
+            float: left;
+        }
+        div::after{
+
+            background-position: right 0;
+        }
+        div:hover::after{
+            transform: translate(100%);
+        }
+        div:hover::before{
+            transform: translate(-100%);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <img src="" alt="">
+</body>
+</html>

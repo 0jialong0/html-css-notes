@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+a {
+  color: #061b28;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  background-color: white;
+  height: 12vw ;
+  color: #9b9b9b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4.8vw;
+  padding: 0 3.73vw;
+  position: relative;
+}
+header .iconfont {
+  font-size: 4.27vw;
+}
+header input {
+  width: 74.67vw;
+  height: 7.33vw;
+  text-indent: 2em;
+  background-color: #f3f1f2;
+  border: 0;
+  border-radius: 1.33vw;
+}
+header > span:nth-of-type(2) {
+  font-size: 4.8vw;
+  position: absolute;
+  top: 4vw;
+  left: 13.33vw;
+  color: #4285ff;
+}
+nav {
+  background-color: white;
+  height: 9.87vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+nav > ul {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  overflow: auto;
+}
+nav > ul > li {
+  font-size: 4vw;
+  flex-shrink: 0;
+  padding: 0 2.67vw;
+}
+nav > ul > li > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav > ul > li > a div {
+  position: absolute;
+  top: 19.87vw;
+  width: 4vw;
+  border-bottom: solid 2px #4285ff;
+  display: none;
+}
+nav > ul li:hover a {
+  color: #4285ff;
+}
+nav > ul li:hover a > div {
+  display: block;
+}
+nav > span {
+  color: #423e3d;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.tu {
+  position: relative;
+  width: 100%;
+  height: 49.33vw;
+}
+.tu img {
+  width: 100%;
+  height: 100%;
+}
+.tu > p {
+  position: absolute;
+  bottom: 0.67vw;
+  left: 0.67vw;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.guang {
+  width: 100%;
+  height: 16.93vw;
+  position: relative;
+  border-bottom: 1px solid #efefef;
+}
+.guang > span {
+  position: absolute;
+  font-size: 4vw;
+  color: #423e3d;
+  right: 1.33vw;
+  top: 1.33vw;
+}
+.guang > p {
+  position: absolute;
+  bottom: 1.33vw;
+  left: 4vw;
+  color: #423e3d;
+  font-size: 3.2vw;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+section {
+  position: relative;
+  overflow: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+section > div:nth-of-type(1) {
+  height: 23.6vw;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section > div:nth-of-type(1) > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3.33vw;
+  color: black;
+}
+section > div:nth-of-type(1) > a::before {
+  font-size: 6.67vw;
+  color: #fc4c4c;
+  margin-bottom: 3.33vw;
+}
+section > div:nth-of-type(1) > a:nth-of-type(1)::before {
+  color: #4285ff;
+}
+section > div:nth-of-type(1) > a:nth-of-type(3)::before {
+  color: #46bd83;
+}
+section > div:nth-of-type(2) {
+  width: 100%;
+  height: 44.8vw;
+}
+section > div:nth-of-type(2) > div {
+  margin-left: 4vw;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #efefef;
+}
+section > div:nth-of-type(2) > div > p {
+  font-size: 4.27vw;
+  color: #061b28;
+  margin-top: 4vw;
+  margin-bottom: 2.67vw;
+}
+section > div:nth-of-type(2) > div > ul:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+}
+section > div:nth-of-type(2) > div > ul:nth-of-type(1) img {
+  width: 30.13vw;
+  height: 22.67vw;
+}
+section > div:nth-of-type(2) > div > ul:nth-of-type(2) {
+  display: flex;
+  font-size: 3.2vw;
+  margin-top: 3.07vw;
+  margin-bottom: 3vw;
+}
+section > div:nth-of-type(2) > div > ul:nth-of-type(2) li {
+  margin-right: 2.67vw;
+  color: #989898;
+}
+section > div:nth-of-type(2) > div > ul:nth-of-type(2) li:nth-of-type(1) {
+  background-color: #e8f1ff;
+  color: #4285ff;
+}
+footer {
+  display: flex;
+  height: 13.33vw;
+  background-color: white;
+  justify-content: space-evenly;
+  border-top: solid 1px #eeeeee;
+}
+footer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #323232;
+  text-decoration: none;
+  font-size: 3.2vw;
+}
+footer a::before {
+  font-size: 6.53vw;
+}
+footer a:hover {
+  color: #4285ff;
+}

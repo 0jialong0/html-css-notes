@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            height: 500px;
+            background-color: pink;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            /* 从起点位置开始排列 侧轴的起点*/
+            align-content: flex-start;
+            /* 侧轴的终点位置 */
+            align-content:flex-end;
+            /* 侧轴的中间位置 */
+            align-content: center;
+            /* 行的上下间距相等，行与行之间是行与容器之间间距的2倍 */
+            align-content: space-around;
+            /* 行与行之间的间距相等 行与容器之间的间距为o */
+            align-content: space-between;
+            /* 行与行之间，行与容器之间间距相等 */
+            align-content: space-evenly;
+
+
+            justify-content: space-evenly;
+        }
+        li{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            /* margin-bottom: 5px; */
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+</body>
+</html>

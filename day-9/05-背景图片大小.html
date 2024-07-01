@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+        width: 300px;
+        height: 200px;
+        background-color: aqua;
+        background-image: url(./img/3.jpg);
+        background-repeat: no-repeat;
+        /* 图片宽高100px */
+        background-size: 100px;
+        /* 当前盒子自身的宽高百分比 */
+        background-size:70% ;
+        /* 包含，将图片等比例缩放，直到盒子能包含的最大*/
+        background-size: contain;
+        /* 填满整个盒子 ，不是等比缩放*/
+        background-size: cover;
+        /* 连写 */
+        background: red url(./img/3.jpg) no-repeat center/300px 200px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div></div>
+</body>
+</html>

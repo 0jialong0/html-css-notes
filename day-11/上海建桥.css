@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    height: 36px;
+    background-color: #e4e4e4;
+}
+header>div{
+    width: 1002px;
+    height: 36px;
+    margin: auto;
+    /* background-color: gold; */
+}
+header>div :first-child{
+    float: left;
+}
+header>div :last-child{
+    float: right;
+}
+header li{
+    float: left;
+    height: 36px;
+    line-height: 36px;
+}
+header a{
+    color: #6a6967;
+    font-size: 12px;
+}
+header div :first-child li{
+    padding: 0 8px;
+    background: url(./tup/top—中间竖条.png) no-repeat right center;
+}
+header div :first-child :last-child{
+    background: url();
+}
+header>div :last-child li{
+    margin-right: 17px;
+}
+header>div :last-child :nth-child(3){
+    margin-right: 25px;
+}
+header input{
+    width: 140px;
+    height: 20px;
+    margin-top: 8px;
+}
+.shang{
+    width: 1002px;
+    height: 97px;
+    margin: auto;
+    /* background-color: gold; */
+}
+
+nav{
+    height: 45px;
+    background-color: #d92b34;
+}
+nav>ul{
+    width: 1002px;
+    height: 45px;
+    margin: auto;
+    /* background-color: pink; */
+}
+nav li{
+    height: 45px;
+    float: left;
+    margin-right: 32px;
+}
+nav ul li:nth-of-type(1){
+    margin-left: 30px;
+}
+nav a{
+    font-size: 17px;
+    color: white;
+    line-height: 45px;
+}
+
+section{
+    width: 100%;
+    height: 330px;
+    background-color: #e6e6e6;
+}
+section>div{
+    width: 1002px;
+    height: 330px;
+    margin: auto;
+    /* background-color: pink; */
+}
+section img{
+    width: 672px;
+    height: 330px;
+    float: left;
+}
+section .hai{
+    width: 330px;
+    height: 330px;
+    float: right;
+    box-sizing: border-box;
+    /* background-color: gold; */
+    background: url(./tup/jiant.png) no-repeat 275px 310px #eeeeee;
+    border-bottom: #c8141f solid 1px;
+}
+section .hai ul{
+    margin-left: 40px;
+    margin-right: 40px;
+   
+}
+section .hai li{
+    box-sizing: border-box;
+    border-bottom: 1px dashed #787878;
+    /* height: 58px; */
+    padding: 9px 0;
+    /* line-height: 58px; */
+}
+section .hai a{
+    color: #000002;
+    font-size: 14px;
+} 
+section .hai span{
+    color: #787878;
+}
+section .cu{
+    font-weight: 700;
+}
+
+article{
+    width: 1002px;
+    height: 514px;
+    display: flex;
+    justify-content: space-between;
+    margin: 38px auto;
+    /* background-color: pink; */
+}
+article .right{
+    width: 241px;
+    height: 514px;
+    float: right;
+    /* background-color: gold; */
+} 
+article .right div{
+    width: 241px;
+    height: 42px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    border-bottom: #cccccc 1px solid;
+}
+article .right div h2{
+    float: left;
+    width: 72px;
+    height: 40px;
+    line-height: 40px;
+}
+article .right div :first-child a{
+    display: inline-block;
+    font-size: 18px;
+    color: #c9131f;
+    border-bottom: #c8141f 1px solid;
+}
+article .xin{
+    margin-right: 20px;
+}
+article .right div :last-child a{
+    font-size: 18px;
+    color: #868686;
+}
+article >.right input{
+    width: 218px;
+    height: 28px;
+    margin-bottom: 4px;
+}
+article>.right button{
+    width: 81px;
+    height: 24px;
+    margin-right: 50px;
+}
+article>.right span{
+    font-size: 12px;
+}
+
+article>.left{
+    width: 731px;
+    height: 514px;
+    /* background-color: gold; */
+}
+article>.left .big{
+    width: 731px;
+    height: 257px;
+    /* background-color: blue; */
+}
+
+article>.left .one{
+    width: 270px;
+    height: 257px;
+    float: left;
+}
+article>.left h2{
+    height: 42px;
+    line-height: 42px;
+    font-weight: normal;
+    border-bottom: 1px solid #dfdfdf;
+}
+article>.left .one img{
+    width: 270px;
+    height: 120px;
+    margin-top: 20px;
+}
+article>.left .one p{
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+article>.left .two{
+    float: right;
+    width: 424px;
+    height: 257px;
+    /* background-color: aqua; */
+}
+article>.left .two .two1{
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+article>.left .two .two1,
+article>.left .two .two2{
+    width: 424px;
+    height: 60px;
+}
+article>.left .two img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+article>.left .two h5{
+    float: left;
+    font-size: 12px;
+}
+article>.left .two p{
+    /* float: left; */
+    font-size: 12px;
+    color: #6e706f;
+}
+
+
+article .three{
+    width: 270px;
+    height: 257px;
+    float: left;
+}
+article .three ul{
+    margin-top: 20px;
+    width: 270px;
+}
+article .three ul li{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+}
+article .three ul li span{
+    float: right;
+}
+
+
+
+article .four{
+    float: right;
+    width: 424px;
+    height: 257px;
+    /* background-color: aqua; */
+}
+article .four ul{
+    margin-top: 20px;
+    width: 424px;
+}
+article .four ul li{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+}
+article .four ul li span{
+    float: right;
+}
+
+footer>.qing{
+    width: 100%;
+    height: 30px;
+    background-color: #ebebeb;
+    border-top: 2px #ff9c00 solid;
+    background: url(./tup/jiantou.png) no-repeat center 0;
+}
+footer  .lianjie ul{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    background-color: #d4d4d4;
+}
+footer .lianjie ul li{
+    padding: 0 60px;
+}
+footer .lianjie ul a{
+    font-size: 12px;
+    height: 42px;
+    line-height: 42px;
+    color: #000002;
+}
+footer .zui{
+    width: 100%;
+    height: 131px;
+    text-align: center;
+    background-color: #302728;
+}
+footer .zui ul{
+    width: 1002px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #3b3233;
+}
+footer .zui ul a{
+    line-height: 50px;
+    color: #cccccc;
+    font-size: 12px;
+}
+footer .xue{
+    margin-top: 15px;
+}
+footer p{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #979392;
+}

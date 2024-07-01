@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .big{
+            margin:100px auto;
+            width: 900px;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+        }
+        img{
+            width: 900px;
+            height: 400px;
+            /* transform: scale(0.9); */
+            transition: all 1.5s linear;
+        }
+        .shape{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+            transition: all 1.5s linear;
+        }
+        .wen{
+            position: absolute;
+            bottom: -50px;
+            left: 0;
+            transition: all 1.5s linear;
+        }
+        .big:hover .shape{
+            display: block;
+        }
+        .big:hover img{
+            transform: scale(1.2);
+        }
+        .big:hover .wen{
+            transform: translate(0,-50px);
+        }
+    </style>
+</head>
+<body>
+    <div class="big">
+        <img src="./图片/4.jpg" alt="">
+        <div class="shape">
+            
+        </div>
+        <div class="wen">
+            <p>宣布个事</p>
+            <p>我是帅哥</p>
+            <p>都同意吧</p>
+        </div>
+
+
+    </div>
+</body>
+</html>

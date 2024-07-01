@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul{
+            width: 300px;
+            height: 50px;
+            list-style: none;
+            margin: 200px auto;
+        }
+        li{
+            width: 100px;
+            height: 50px;
+            float: left;
+            line-height: 50px;
+            text-align: center;
+            position: relative;
+            /* 呈现立体图形 */
+            transform-style: preserve-3d;
+            transition: all 1.5s linear;
+            /* transform: rotateX(-20deg) rotateY(30deg); */
+        }
+        a{
+            display: block;
+            width: 100px;
+            height: 50px;
+            /* 两个a标签重叠了 */
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        li a:nth-of-type(1){
+            background-color: orange;
+            /* 注意位移translate单位px  旋转单位deg */
+            transform: translateY(-25px) rotateX(90deg);
+        }
+        li a:nth-of-type(2){
+            background-color: green;
+            transform: translateZ(25px);
+        }
+        li:hover{
+            transform: rotateX(-90deg);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="">index</a>
+            <a href="">首页</a>
+        </li>
+        <li>
+            <a href="">index</a>
+            <a href="">首页</a>
+        </li>
+        <li>
+            <a href="">index</a>
+            <a href="">首页</a>
+        </li>
+    </ul>
+</body>
+</html>

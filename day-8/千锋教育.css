@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 37px;
+    background-color: #f6f6f6;
+}
+.he{
+    width: 1200px;
+    height: 37px;
+    margin: auto;
+}
+header p{
+    font-size: 12px;
+    float: left;
+    line-height: 37px;
+    color: #7b7c81;
+}
+header img{
+    margin-top: 5px;
+    width: 70px;
+    height: 27px;  
+}
+header button{
+    float: right;
+    border: none;
+}
+.head{
+    width: 1200px;
+    height: 90px;
+    margin: auto;
+}
+.head .logo{
+    float: left;
+    margin-top: 27px;
+}
+.head .kouhao{
+    float: right;
+    margin-top: 27px;
+}
+
+
+
+nav{
+    height: 50px;
+    background-color:#008dd5 ;
+}
+nav ul{
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    margin-right: 37px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    line-height: 50px;
+}
+.body{
+    width: 100%;
+}
+section{
+    width: 1200px;
+    height: 200px;   
+    margin: auto;
+    margin-top: 45px;
+}
+section .sec{
+    float: left;
+    width: 175px;
+    margin: 0 60px;
+}
+section img{
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section h4{
+    font-size: 15px;
+    color: #5f767c;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+section h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+article{
+    height: 288px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+.art{
+    width: 1060px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+.art img{
+    margin: 20px;
+    height: 160px;
+    float: left;
+}
+.art h1{
+    float: left;
+    margin: 20px 570px 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.art span{
+    font-size: 12px;
+    color: #29ac44;
+    margin: 0 40px 0 19px;
+}
+.art div{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.art p{
+    font-size: 12px;
+    color: #9a9ba0;
+    line-height: 25px;
+    margin-right: 30px;
+}
+
+
+footer h1{
+    font-weight: normal;
+    font-size: 20px;
+    width: 1100px;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: #7b7c81 1px solid;
+    line-height: 60px;
+}
+footer h1 span{
+    color: #f04a24;
+    font-size: 18px;
+    float: right;
+}
+footer .foot{
+    width: 1100px;
+    height: 340px;
+    margin: auto;
+}
+footer .foot ul{
+    list-style: none;
+    overflow: hidden;
+}
+footer .foot ul>li{
+    width: 265px;
+    height: 290px;
+    float: left;
+    background-color:#eff3f6 ;
+    margin: 18px 13px 0 0;
+}
+footer .foot ul>li>img{
+    width: 265px;
+}
+footer .foot .li4{
+    margin-right: 0;
+}
+footer .foot ul p{
+    font-size: 12px;
+    color: #615d5c;
+    line-height: 20px;
+    margin: 15px;
+}
+.foot li .xian{
+    width: 220px;
+    margin: auto;
+    border: #d5d9dc solid 1px;
+}
+.zuihou{
+    height: 125px;
+    background-color: #111b24;
+    padding-top: 40px;
+}
+.zuihou h3{
+    color: #9c9aa5;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}

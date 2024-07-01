@@ -1,0 +1,187 @@
+// out:../css/
+@import"./normalize.less";
+@import"./base.less";
+
+@size:37.5rem;
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #262626;
+    height:(45 / @size) ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: (18 / @size);
+    padding: 0 (14 / @size);
+    position: relative;
+    .iconfont{
+        font-size: (16 / @size);
+    }
+    &>span:nth-of-type(2){
+        font-size: (18 / @size);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+
+section{
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    position: relative;
+    overflow: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    .hear{
+        position: absolute;
+        width: (24 / @size);
+        height: (24 / @size);
+        left:(333 / @size) ;
+        top: (207 / @size);
+
+    }
+    .quwei{
+        position: absolute;
+        width: (24 / @size);
+        height: (24 / @size);
+        left:(333 / @size) ;
+        top: (460 / @size);
+    }
+    .heard{
+        position: absolute;
+        width: (24 / @size);
+        height: (24 / @size);
+        left:(333 / @size) ;
+        top: (705 / @size);
+    }
+    .jing{
+        color: white;
+        font-size: (14 / @size);
+        position: absolute;
+        top: (200 / @size);
+        left: (26 / @size);
+        z-index: 1;
+    }
+    .status{
+        position: absolute;
+        width: (64 / @size);
+        height: (28.5 / @size);
+        left:(15 / @size) ;
+        top: (197 / @size);
+    }
+    .jie{
+        color: white;
+        font-size: (14 / @size);
+        position: absolute;
+        top: (445 / @size);
+        left: (26 / @size);
+        z-index: 1;
+    }
+    .default{
+        position: absolute;
+        width: (64 / @size);
+        height: (28.5 / @size);
+        left:(15 / @size) ;
+        top: (445 / @size);
+    }
+    .shu{
+        color: white;
+        font-size: (14 / @size);
+        position: absolute;
+        top: (695 / @size);
+        left: (26 / @size);
+        z-index: 2;
+    }
+    .deflou{
+        position: absolute;
+        width: (64 / @size);
+        height: (28.5 / @size);
+        left:(15 / @size) ;
+        top: (692 / @size);
+        z-index: 1;
+    }
+    img{
+        width: (375 / @size);
+        height: (160 / @size);
+    }
+    h1{
+        font-size: (16 / @size);
+        margin-left: (15 / @size);
+        margin-top: (10 / @size);
+        margin-bottom: (10 / @size);
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        padding: (8 / @size) (15 / @size) (16 / @size) (15 / @size);
+        p{
+            font-size: (15 / @size);
+            // margin-right: (19 / @size);
+            width: (295 / @size);
+            height: (43 / @size);
+        }
+        span{
+            color: #FE6249;
+            font-size: (15 / @size);
+        }
+    }
+    &>p{
+        font-size: (12 / @size);
+        color: #B4B4B4 ;
+        margin-left: (15 / @size);
+        margin-bottom: (5 / @size);
+        & :first-child{
+            margin-right: (15 / @size);
+        }
+    }
+
+    .zhe{
+        position: absolute;
+        top: (700 / @size);
+        width: 100%;
+        height: (250 / @size);
+        background-color: rgb(61 63 62 / 42%);
+    }
+}
+
+
+
+footer{
+    display: flex;
+    height: (49/@size);
+    // padding: 0 (56/@size);
+    background-color: gold;
+    justify-content: space-evenly;
+    a{
+        display: flex;
+        // 改变a标签主轴方向
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        font-size: (12/@size);
+        &::before{
+            font-size: (24.5/@size);
+        }
+        &:hover{
+            color: white;
+        }
+    }
+}

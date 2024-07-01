@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 块注释  shift + alt + A*/
+/* 计算 */
+.box {
+  width: 200px;
+  width: 50px;
+  width: 1200px;
+  /* 除法需要添加小括号 */
+  width: 2.66666667rem;
+}
+p {
+  color: gold;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 400px;
+            height: 200px;
+            margin: 200px auto;
+            border: 1px solid;
+            /* 溢出隐藏 */
+            overflow: hidden;
+        }
+        .left{
+            width: 200px;
+            height: 200px;
+            background-color: gold;
+            float: left;
+        }
+        .right{
+            width: 200px;
+            height: 200px;
+            background-color: goldenrod;
+            float: right;
+        }
+        .box:hover .left{
+            transform: translate(-100%);
+            transition: all 1.5s linear;
+        }
+        .box:hover .right{
+            transform: translate(100%);
+            transition: all 1.5s linear;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>

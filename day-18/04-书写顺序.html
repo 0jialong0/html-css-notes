@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+        视口宽度>= 768px，网页背景色是粉色
+        视口宽度>= 992px，网页背景色是绿色
+        视口宽度>=1200px，网页背景色是skyblue
+
+        当条件都是min-width的时候取值的书写顺序是由小到大
+
+        */
+         /* @media (min-width:768px) {
+            body{
+                background-color: pink;
+            }
+        }
+        @media (min-width:992px) {
+            body{
+                background-color: blue;
+            }
+        }
+        @media (min-width:1200px) {
+            body{
+                background-color: skyblue;
+            }
+        } */
+
+        /* 
+        视口宽度<= 768px，网页背景色是粉色
+        视口宽度<= 992px，网页背景色是绿色
+        视口宽度<=1200px，网页背景色是skyblue
+
+        
+        当条件都是max-width的时候取值的书写顺序是由大到小 */
+       
+        
+        /* @media (max-width:1200px) {
+            body{
+                background-color: skyblue;
+            }
+        }
+        @media (max-width:992px) {
+            body{
+                background-color: blue;
+            }
+        }
+        @media (max-width:768) {
+            body{
+                background-color: pink;
+            }
+        } */
+
+        /* 完整写法 */
+        @media screen and (max-width:768px) {
+            body{
+                background-color: gold;
+            }
+            /* 和平常写样式一样 */
+            h1{
+                color: red;
+                font-size: 20px;
+                width: 100px;
+                height: 50px;
+                background-color: aqua;
+            }
+            div{
+                background-color: gold;
+            }
+        }
+        @media screen and (orientation:portrait) {
+            h1{
+                color: black;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>
+        我是个帅哥
+    </h1>
+    <div>
+        宣布个事，我是帅哥 宣布个事，我是帅哥
+        宣布个事，我是帅哥 宣布个事，我是帅哥
+        宣布个事，我是帅哥 宣布个事，我是帅哥
+        宣布个事，我是帅哥 宣布个事，我是帅哥
+    </div>
+</body>
+</html>

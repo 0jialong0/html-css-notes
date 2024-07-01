@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 继承无法添加！important */
+        body{
+            color: rgb(40, 123, 76);
+        }
+        .box{
+            color: beige;
+        }
+        #id{
+            color: blue;
+        }
+        *{
+            color: red !important;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box" id="two" style="color: aqua;">测试优先级</div>
+</body>
+</html>

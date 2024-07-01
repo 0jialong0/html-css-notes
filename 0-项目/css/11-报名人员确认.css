@@ -1,0 +1,292 @@
+@import "./normalize.less";
+@import "./base.less";
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  overflow: auto;
+  position: relative;
+}
+main .fix {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 41.17333333rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+main .fix div {
+  top: 0rem;
+  width: 7.46666667rem;
+  height: 8.53333333rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 5.2rem;
+  margin-left: 1.25333333rem;
+}
+main .fix div img {
+  width: 7.46666667rem;
+  height: 4.08rem;
+}
+main .fix div ul {
+  margin-top: 0.45333333rem;
+  margin-left: 1.33333333rem;
+  width: 5.86666667rem;
+  height: 2.13333333rem;
+  font-size: 0.16rem;
+  color: #3C3C3C;
+  list-style: none;
+}
+main .fix div ul li {
+  line-height: 20px;
+}
+main .fix div ul li span {
+  display: inline-block;
+  width: 0.10666667rem;
+  height: 0.10666667rem;
+  background-color: #FECA49;
+  border-radius: 50%;
+  margin-right: 0.10666667rem;
+}
+main .fix div button {
+  width: 6.93333333rem;
+  height: 1.17333333rem;
+  margin-top: 0.4rem;
+  margin-left: 0.26666667rem;
+  background-color: #FECA49;
+  color: white;
+  font-size: 0.42666667rem;
+  border: 0;
+}
+main header {
+  background-color: #262626;
+  height: 1.2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.48rem;
+  padding: 0 0.37333333rem;
+  position: relative;
+}
+main section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  background-color: #f0f0f0;
+  position: relative;
+}
+main section div:nth-of-type(1) {
+  background-color: white;
+  position: relative;
+}
+main section div:nth-of-type(1) img:nth-of-type(1) {
+  width: 100%;
+  height: 5.30666667rem;
+}
+main section div:nth-of-type(1) img:nth-of-type(2) {
+  position: absolute;
+  left: 8.82666667rem;
+  top: 0.39466667rem;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+main section div:nth-of-type(1) img:nth-of-type(3) {
+  position: absolute;
+  left: 0.4rem;
+  top: 4.4rem;
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+}
+main section div:nth-of-type(1) p:nth-of-type(1) {
+  position: absolute;
+  left: 0.4rem;
+  top: 4.4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 0.64rem;
+  width: 2.24rem;
+  height: 0.53333333rem;
+  font-size: 0.26666667rem;
+  color: white;
+  border-radius: 0.53333333rem;
+}
+main section div:nth-of-type(1) h1 {
+  width: 9.2rem;
+  height: 1.01333333rem;
+  margin: 0.34666667rem 0.4rem 0.42666667rem;
+  font-size: 0.4rem;
+  font-weight: 400;
+  color: #3C3C3C;
+}
+main section div:nth-of-type(1) div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.29333333rem;
+}
+main section div:nth-of-type(1) div b {
+  color: #B4B4B4;
+  font-size: 0.32rem;
+  padding-left: 0.4rem;
+  font-weight: 400;
+}
+main section div:nth-of-type(1) div b .icon-qizhi::before {
+  font-size: 0.26666667rem;
+  margin-right: 0.18666667rem;
+}
+main section div:nth-of-type(1) div b .icon-05::before {
+  font-size: 0.26666667rem;
+  margin-left: 0.4rem;
+  margin-right: 0.18666667rem;
+}
+main section div:nth-of-type(1) div .mian {
+  color: #FE6249;
+  font-size: 0.42666667rem;
+  margin-right: 0.42666667rem;
+}
+main section ul {
+  margin-top: 0.26666667rem;
+  background-color: white;
+  padding-left: 0.4rem;
+  padding-right: 0.45333333rem;
+  list-style: none;
+}
+main section ul .iconfont {
+  font-size: 0.34666667rem;
+  color: #3C3C3C;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  border-bottom: 1px solid #F0F0F0;
+}
+main section ul .icon-7 {
+  border: 0;
+}
+main section ul .iconfont::before {
+  margin-right: 0.26666667rem;
+  color: #B4B4B4;
+}
+main section div:nth-of-type(2) {
+  height: 15.46666667rem;
+  background-color: white;
+  padding: 0 0.4rem;
+  margin-top: 0.26666667rem;
+  margin-bottom: 0.34666667rem;
+  position: relative;
+}
+main section div:nth-of-type(2) h2 {
+  font-size: 0.32rem;
+  color: #3C3C3C;
+  border-bottom: #F0F0F0 solid 1px;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+}
+main section div:nth-of-type(2) h3 {
+  font-size: 0.32rem;
+  color: #3C3C3C;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+main section div:nth-of-type(2) p {
+  color: #A0A0A0;
+  line-height: 0.53333333rem;
+  font-size: 0.32rem;
+}
+main section div:nth-of-type(2) p:nth-of-type(2) {
+  height: 1.17333333rem;
+}
+main section div:nth-of-type(2) img {
+  width: 9.2rem;
+  height: 6.64rem;
+}
+main section div:nth-of-type(2) i {
+  height: 2.24rem;
+  width: 9.6rem;
+  position: absolute;
+  bottom: 0;
+  font-style: normal;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+main section div:nth-of-type(2) i span {
+  position: absolute;
+  bottom: 0;
+  left: 3.41333333rem;
+  color: #45B8FF;
+  font-size: 0.37333333rem;
+}
+main section div:nth-of-type(3) {
+  height: 5.86666667rem;
+  background-color: white;
+  margin-bottom: 0.26666667rem;
+}
+main section div:nth-of-type(3) h2 {
+  font-size: 0.32rem;
+  margin-left: 0.4rem;
+  color: #3C3C3C;
+  border-bottom: #F0F0F0 solid 1px;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+}
+main section div:nth-of-type(3) ul {
+  margin: 0.26666667rem 0 0.45333333rem 0;
+  font-size: 0.32rem;
+  color: #A0A0A0;
+  line-height: 20px;
+}
+main section div:nth-of-type(3) ul span {
+  display: inline-block;
+  width: 0.21333333rem;
+  height: 0.21333333rem;
+  background-color: #D8D8D8;
+  border-radius: 50%;
+  margin-right: 0.21333333rem;
+}
+main section div:nth-of-type(3) button {
+  width: 9.17333333rem;
+  height: 1.01333333rem;
+  color: #969696;
+  background-color: white;
+  border: 1px solid #D8D8D8;
+  margin-bottom: 0.37333333rem;
+  margin-left: 0.4rem;
+}
+main section div:nth-of-type(4) {
+  height: 4.4rem;
+  background-color: white;
+  margin-bottom: 0.8rem;
+}
+main section div:nth-of-type(4) h2 {
+  font-size: 0.32rem;
+  margin-left: 0.4rem;
+  color: #3C3C3C;
+  border-bottom: #F0F0F0 solid 1px;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+}
+main section div:nth-of-type(4) ul {
+  font-size: 0.32rem;
+  color: #A0A0A0;
+  line-height: 20px;
+  margin-left: 0;
+  margin-bottom: 0.4rem;
+}
+main footer {
+  display: flex;
+  height: 1.30666667rem;
+  background-color: gold;
+  justify-content: center;
+  align-items: center;
+}
+main footer p {
+  font-size: 0.58666667rem;
+  color: white;
+}

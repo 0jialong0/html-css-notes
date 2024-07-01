@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #646464;
+}
+html {
+  font-size: 32vw;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.05rem;
+  line-height: 1;
+}
+header {
+  position: fixed ;
+  top: 0.125rem;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 0 0.125rem;
+  height: 0.25rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+header .icon-liebiao {
+  margin-right: 0.25rem;
+  font-size: 0.1417rem;
+}
+header .icon-sousuo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.1083rem;
+  height: 0.25rem;
+  border-radius: 0.125rem;
+  margin-right: 0.125rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+header .icon-sousuo::before {
+  margin-right: 0.0417rem;
+}
+section {
+  overflow: auto;
+  flex: 1;
+  background-color: #f5f5f5;
+}
+section .pian {
+  width: 100%;
+  margin-bottom: 0.125rem;
+}
+section .pian .tupian {
+  width: 100%;
+}
+section nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.125rem;
+  background-color: white;
+}
+section nav a {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.1583rem;
+}
+section nav a img {
+  width: 0.3667rem;
+  height: 0.3667rem;
+  margin-bottom: 0.0833rem;
+}
+section nav a span {
+  font-size: 0.1083rem;
+}
+section .men {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-bottom: 0.1625rem;
+}
+section .men a {
+  height: 0.35rem;
+  width: 33.33333%;
+  display: flex;
+  align-items: center;
+  border-right: #f5f5f5 solid 1px;
+  box-sizing: border-box;
+}
+section .men a img {
+  width: 0.125rem;
+  margin-left: 0.1083rem;
+  margin-right: 0.0958rem;
+}
+section .men a span {
+  font-size: 0.1rem;
+}
+section .men a:nth-of-type(-n+3) {
+  border-bottom: 1px solid #f5f5f5;
+}
+section .men a:nth-of-type(3),
+section .men a:nth-of-type(6) {
+  border-right: 0;
+}
+section .discount {
+  background-color: white;
+  width: 100%;
+}
+section .discount h1 {
+  padding-top: 0.1583rem;
+  padding-bottom: 0.1417rem;
+  font-size: 0.1333rem;
+  text-align: center;
+}
+section .discount .guo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+section .discount .guo div {
+  width: 50%;
+  padding-left: 0.125rem;
+  box-sizing: border-box;
+}
+section .discount .guo div img {
+  width: 100%;
+}
+section .discount .guo div p:nth-of-type(1) {
+  color: #1f2023;
+  font-size: 0.1167rem;
+  margin-top: 0.0917rem;
+  margin-bottom: 0.1083rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 0.1667rem;
+}
+section .discount .guo div p:nth-of-type(2) {
+  font-size: 0.0917rem;
+  color: #ff8579;
+  margin-bottom: 0.2rem;
+}
+section .discount .guo div p:nth-of-type(2) span {
+  font-size: 0.0833rem;
+  color: #adadaf;
+}
+section .youwang {
+  margin-top: 0.2083rem;
+  margin-bottom: 0.0958rem;
+  font-size: 0.0833rem;
+  color: #9ea3ab;
+  text-align: center;
+}
+section .youwang sup {
+  font-size: 0.0733rem;
+}
+section ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.125rem;
+}
+section ul li {
+  margin-right: 0.2833rem;
+}
+section ul li:nth-of-type(3) {
+  margin-right: 0;
+}
+section ul li:hover {
+  color: #9ea3ab;
+}
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.1rem;
+  color: #636363;
+  margin-right: 0.05rem;
+  margin-bottom: 0.05rem;
+}
+footer a::before {
+  color: #6e6e6e;
+  font-size: 0.1667rem;
+  margin-bottom: 0.0667rem;
+}
+footer a:hover::before {
+  color: #00b081;
+}
+footer a:hover {
+  color: #00b081;
+}

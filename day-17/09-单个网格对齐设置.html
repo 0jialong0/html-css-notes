@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            width: 300px;
+            height: 300px;
+            list-style: none;
+            display: grid;
+            margin: auto;
+            border: 3px solid black;
+            grid-template-columns: repeat(3,80px);
+            grid-template-rows: repeat(3,80px);
+        }
+        li{
+            background-color: aqua;
+        }
+        li:nth-of-type(1){
+            /* 宽高由内容撑开 */
+            /* justify-self: start;水平靠左对齐 */
+            /* justify-self: center;水平居中对齐*/
+            /* justify-self: end;水平靠右对齐*/
+
+
+            /* align-self: start;垂直靠上对齐*/
+            /* align-self: center;垂直居中对齐*/
+            /* align-self: end;垂直靠下对齐*/
+
+
+            /* 第一个代表垂直方向，第二个水平方向 */
+            /* place-self: center;垂直正居中 */
+            /* place-self: start center;上中 */
+            /* place-self: stretch;默认拉伸占满 */
+
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+</body>
+</html>

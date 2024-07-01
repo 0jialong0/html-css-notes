@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  a{
+    color: #061b28;
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }
+  header{
+    background-color: #ff7138;
+    height:12vw ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3.73vw;
+    position: relative;
+    input{
+      width: 80.8vw;
+      height: 8vw;
+      text-align: center;
+      border-radius: 4vw;
+      border: 0;
+    }
+    &>span{
+        font-size: 4.8vw;
+        position: absolute;
+        left: 24.33vw;
+    }
+    &>a{
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-size: 2.67vw;
+      &::before{
+        font-size: 6.67vw;
+      }
+    }
+   
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+nav{
+  
+  background-color: white;
+  height: 9.87vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  &>ul{
+    width: 100%;
+    display: flex;
+    
+    flex: 1;
+    overflow: auto;
+    &>li{
+      font-size: 4vw;
+      flex-shrink: 0;
+      padding: 0 2.67vw;
+      &>a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div{
+          position: absolute;
+          top: 19.87vw;
+          // margin-top: 1.33vw;
+          width: 6vw;
+          border-bottom: solid 4px #ff1e1e;
+          display: none;
+        }
+
+      }
+    }
+    li:hover a{
+      color: #ff7138;
+    }
+    li:hover a>div{
+      display: block;
+    }
+  }
+  &>span{
+    color: #ff7138;
+    border-left: 1px solid #4c4948;
+  }
+}
+
+
+// 主体
+section{
+   
+    position: relative;
+    overflow: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    button{
+      width: 34.27vw;
+      height: 6.67vw;
+    }
+
+}
+// 底部
+  footer{
+    border-top: 1px solid #4c4948;
+    display: flex;
+    height: 13.33vw;
+    background-color: white;
+    justify-content: space-evenly;
+    a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #4c4948;
+        text-decoration: none;
+        font-size: 3.2vw;
+        &::before{
+            font-size: 6.53vw;
+        }
+        &:hover{
+            color: orangered;
+        }
+    }
+}

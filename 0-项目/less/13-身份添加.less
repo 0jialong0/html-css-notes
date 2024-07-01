@@ -1,0 +1,177 @@
+// out:../css/
+@import "./normalize.less";
+@import "./base.less";
+
+@vw:3.75vw;
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: #262626;
+    height:(45 / @vw) ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: (18 / @vw);
+    padding: 0 (14 / @vw);
+    position: relative;
+   
+}
+
+section{
+    background-color: #F0F0F0;
+    position: relative;
+    overflow: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    ul{
+        background-color: white;
+        width: 100%;
+        height: (203 / @vw);
+        padding-left: (15 / @vw);
+        box-sizing: border-box;
+        margin-bottom: (13 / @vw);
+        
+        li{
+            height: (50 / @vw);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            line-height: (50 / @vw);
+            border-bottom: 1px #F0F0F0 solid;
+            span{
+                font-size: (17 / @vw);
+                color: #3C3C3C ;
+            }
+            input{
+                text-align: right;
+                color: #C9C9C9 ;
+                font-size: (14 / @vw);
+                border: 0;
+                margin-right: (15 / @vw);
+            }
+            .baobao{
+                width: (168 / @vw);
+            }
+            .shu{
+                width: (150 / @vw);
+                text-align: left;
+                padding-left: (16 / @vw);
+            }
+            button{
+                width: (96 / @vw);
+                height: (36 / @vw);
+                color: white;
+                border: 0;
+                font-size: (12 / @vw);
+                border-radius: (18 / @vw);
+                background-color: #45B8FF;
+                margin-right: (15 / @vw);
+            }
+        }
+        li:nth-of-type(4){
+            border: 0;
+        }
+    }
+
+    ul:nth-of-type(2){
+        background-color: white;
+        width: 100%;
+        height: (235 / @vw);
+        li:nth-of-type(2){
+            height: (80 / @vw);
+            input{
+                width: (179 / @vw);
+                margin: 0;
+            }
+            img{
+                width: (60 / @vw);
+                height: (60 / @vw);
+            }
+        }
+        li:nth-of-type(4){
+            font-size: (14 / @vw);
+            span:nth-of-type(2){
+                margin-right: (15 / @vw);
+                #one{
+                    margin-right: (15 / @vw);
+                }
+            }
+        }
+    }
+}
+
+footer{
+    display: flex;
+    height: (50 / @vw);
+    background-color: gold;
+    justify-content: space-evenly;
+    a{
+        color: white;
+        line-height: (50 / @vw);
+        font-size: (22 / @vw);
+    }
+}
+.zhe{
+    width: 100%;
+    height: (274 / @vw);
+    background-color: #F0F0F0 ;
+    position: fixed;
+    bottom: 0;
+    a{
+        color: #45B8FF;
+        font-size: (15 / @vw);
+        margin-left: (324 / @vw);
+        margin-top: (21 / @vw);
+        margin-bottom: (15 / @vw);
+    }
+    ul{
+        color: #3C3C3C ;
+        text-align: center;
+        font-size: (14 / @vw);
+        height: (228 / @vw);
+        padding-top: (28 / @vw);
+        position: relative;
+        li{
+            width: 100%;
+            height: (27 / @vw);
+            line-height: (27 / @vw);
+            border-bottom: #D8D8D8 solid 1px;
+        }
+        li:nth-of-type(1){
+            margin-top: (28 / @vw);
+            height: (33 / @vw);
+            line-height: (33 / @vw);
+            font-size: (15 / @vw);
+        }
+        li:nth-of-type(5){
+            border: 0;
+        }
+        div{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: (228 / @vw);
+            background-color: rgba(216, 216, 216, .8);
+            span{
+                position: absolute;
+                left: (169 / @vw);
+                margin-top: (65 / @vw);
+
+                font-size: (18 / @vw);
+                color: #3C3C3C ;
+            }
+        }
+    }
+}
